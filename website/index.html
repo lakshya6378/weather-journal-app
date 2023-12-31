@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherJournalApp</title>
+    <link rel="icon" type="image/x-icon" href="images/weatherstatic.png">
+</head>
+<body>
+    <div class="app-container">
+<div class="page-title">
+    <i class="title-icon"><img src="images/weather.svg"></i><p class="title-content">weatherJournalApp</p>
+</div>
+<div class="search-box">
+    <input type="text" id="input"placeholder="enter a city name or pincode" value="">
+    <button type="button" id="search-button"><img src=""><p>Search</p></button>
+</div>
+
+<div id="date"></div>
+<div id="feel"></div>
+<div class="city-container">
+    <h2 class="city-name">Jaipur</h2>
+    <img src="">
+    <p class="temperature">31&deg;<sup>c</sup></p>
+    <p class="min-max-temp">cloudy 34&deg;/36&deg;</p>
+</div>
+<!-- <div class="fiveday-forecast">
+    <h2>5-day forecast</h2>
+    <div class="five-days">
+        <div class="days" id="day1"><p>Yesterday</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+            <p class="max-temp">37&deg;</p>
+            <p class="min-temp">37&deg;</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+        </div>
+        <div class="days" id="day2"><p>Today</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+            <p class="max-temp">37&deg;</p>
+            <p class="min-temp">27&deg;</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+        </div>
+        <div class="days" id="day3"><p>Tomorrow</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+            <p class="max-temp">37&deg;</p>
+            <p class="min-temp">37&deg;</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+        </div>
+        <div class="days" id="day4"><p>Tue</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+            <p class="max-temp">37&deg;</p>
+            <p class="min-temp">37&deg;</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+        </div>
+        <div class="days" id="day5"><p>Wed</p>  
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+            <p class="max-temp">37&deg;</p>
+            <p class="min-temp">37&deg;</p>
+            <i><img src="images/amcharts_weather_icons_1.0.0/static/day.svg"></i>
+        </div>
+
+    </div>
+</div> -->
+<div id="openweathermap-widget-1"></div>
+</div>
+</body>
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+<!-- <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 1,cityid: '1275339',appid: '5b3f556adb4a2ae3aec7659b3cb25f41',units: 'metric',containerid: 'openweathermap-widget-1',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script> -->
+</html>
