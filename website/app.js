@@ -78,6 +78,8 @@ window.onload=function()
 function destroyWeatherWidget() {
     const existingWidget = document.getElementById('openweathermap-widget-1');
     if (existingWidget) {
+        if(window.myWidgetParam) 
+        delete window.myWidgetParam ;
         existingWidget.innerHTML = ''; // Remove the existing widget content
     }
 }
