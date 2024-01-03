@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const WorkboxPlugin = require('workbox-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 module.exports = {
     entry: './website/index.js',
     mode: 'production',
@@ -41,5 +42,6 @@ module.exports = {
             clientsClaim: true,
             skipWaiting: true,
           }),
+          new Dotenv(),
     ]
 }

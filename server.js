@@ -1,4 +1,5 @@
 const express = require("express")
+require('dotenv').config()
  const app = express()
  const bodyParser = require("body-parser")
  app.use(bodyParser.urlencoded({extended: false}));
@@ -93,7 +94,7 @@ const express = require("express")
  const server = app.listen(port,listening);
  function listening(){
     console.log("server is running");
-    console.log(`running on http://localhost:${port}`);
+    console.log(`running on http://localhost:${process.env.PORT}`);
  };
  
  

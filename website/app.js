@@ -82,7 +82,8 @@ function destroyWeatherWidget() {
     }
 }
 const getweatherdata = async (city) => {
-    const address = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${city}&key=AIzaSyB-qHwX2Xu3z-cJ9axwH9LrS-PRhREqqYk`);
+    // console.log(process.env.GOOGLE_API_KEY);
+    const address = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${city}&key=${process.env.GOOGLE_API_KEY}`);
 
     try {
         const citydata = await address.json();
