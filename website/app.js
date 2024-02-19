@@ -178,35 +178,35 @@ const updateUI=async ()=>{
         {
             case "Haze":
                 document.querySelector('.city-container img').src=`${Cloudy}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYQLF5tF2RG2XRTN8Y7GORmI7hC8fgMONiEuc0VDWjVD1_XpXOo5s_K7-Nj1av21Y2WGVDwMulhwWZ6QNhXmVLfLIhpNNw=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1-cSbs7L2lmKONX8xEy3FgOdVUtEJTGqg)`
                 break;
             case "Thunderstorm":
                 document.querySelector('.city-container img').src=`${thunder}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTgwM7G3Ia9kp5BrjMmZDfZMg_STYvfKudXQcaODQ9MR6f4xEsgWJ3mWXGjjyPfLLaNlB5TqdncdAfYLZm_9WEpouHkvA=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1Ojy44vgvMCZJFZLU0V2P2kCVvi9GBIxk)`
                 break;
             case "Drizzle":
                 document.querySelector('.city-container img').src=`${rainy6}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYStJcUiug-zvkUQLykZ7aFDfjrkTY6eTJu8luQFw91OS86CiOmnnQBnrkSJC0m9iBGDAEx7BCfBMy7xeCFOId9zuuOQmw=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1peD66LIJTizrY2CaLP2GmDqraTbDvkqj)`
                 break;
             case "Rain":
                 document.querySelector('.city-container img').src=`${rainy7}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYRWpb5iBAf3rVbjyHt7WM7DmHrmSdZtAQr372ycNLr5oC7i7WW_LZ7aFmEJVrqZ5JpXObahBqOHNyvucmGrxaHyJAiENw=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1ukBf3XajWeIs9v0JcO1PGuZszQ8WDZTV)`
                 break;
             case "Clear":
                 document.querySelector('.city-container img').src=`${daycl}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYSFBnemH99xFbWlreBtnxTbv2V4h4_fPdim6CGuXcITJ6X7njviBsHFHr8qrOklbeS5GGYICBXl59lsxdKG6Pc7j3g2Ww=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=10UL5Iy1YqhhN4MBAICFbKRheQcSKleGr)`
                 break;
             case "Clouds":
                 document.querySelector('.city-container img').src=`${Cloudy}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTzhg7QYngjd4NfkvPWXy_sWPVDIjb2a6onkt67-Stu5Ka5gctUfwIBqcxq55LQ_hXfiyxqBEWhqE6VclOV4VK2J6lBxA=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=12WzIc23RwXLqGfu8TOPmt6S4gr3h-9OI)`
                 break;
             case "Snow":
                 document.querySelector('.city-container img').src=`${snowy3}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTjiolb0JWXTR8J1Mlj6Dx-1bGAD2nWm0m6ihOC1zQWqgfkeze-NusJiuTe-c8g8OlYUGfdzp5j3_iZyaql4yDmBjK7=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1Melzgloh6HCXG9jGBBODoZJx3lxkc6aq)`
                 break;
             default :
                 document.querySelector('.city-container img').src=`${haze}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYQLF5tF2RG2XRTN8Y7GORmI7hC8fgMONiEuc0VDWjVD1_XpXOo5s_K7-Nj1av21Y2WGVDwMulhwWZ6QNhXmVLfLIhpNNw=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1-cSbs7L2lmKONX8xEy3FgOdVUtEJTGqg)`
                 break;
         }
     }
@@ -215,35 +215,35 @@ const updateUI=async ()=>{
         {
             case "Haze":
                 document.querySelector('.city-container img').src=`${cloudynight1}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYRHrvb0ceJeO3hzfAEKqQFplVTM6UDpvkijmbooRsAkluZxQHaDu87DRzp-8alqHFQy0M71zRwY2WE4HvE3iACTE4kAbw=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Thunderstorm":
                 document.querySelector('.city-container img').src=`${thunder}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTtrhxlgPm2VjzRRw_Jm7Xz3eoPr8226EC710AJ9UDT7Bx_cFgVW0PK9tIvItsEVlb5lMnm05UWl1LjRZ-6njCcQM-W=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Drizzle":
                 document.querySelector('.city-container img').src=`${rainy6}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTxktUHlp5AYYuLe2V6BAo2KYwiLYr_HupVUihhU-UBYsSeTlSRWkYPuazw5GJjFrnLYy4nxoGXeaj4xEgWUXTzcwjDIA=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Rain":
                 document.querySelector('.city-container img').src=`${rainy7}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYQXE3b9uVaBVim2PJNufBb-wJjNIzHkiJuagbZvekpWuhYMecF6l4fgG-M6B1bFbuT980DnPuT8fuISIWQQqFPGNmE-5g=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Clear":
                 document.querySelector('.city-container img').src=`${night}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYRul43v10YMCObPGSLljOltYT8KGsAI7wESoa27a7OBTLK1sW5aClKfGf0mHvBuR654rtEzCV9g3BXrjaQmTyfi5bEz=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Clouds":
                 document.querySelector('.city-container img').src=`${Cloudy}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYSjqOKZneLCXzpDGCY8BgoUI5c-AmTVIpuJnT5azHcocceM9kTKaEx6eE4_EtO4G5XidvokIc2Sx31gNWhQ9QViebYJXg=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             case "Snow":
                 document.querySelector('.city-container img').src=`${snowy3}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYReZH08p5GesdpsZqEvsxhXhXtGfnN98m7XYUpbQ2WrUY5KiON1WfpGEBzINMrtJbFd5-n5VYrRaR7KUM3iIX3lj2_R6g=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
             default :
                 document.querySelector('.city-container img').src=`${haze}`;
-                document.querySelector('body').style.backgroundImage=`url(https://lh3.googleusercontent.com/drive-viewer/AEYmBYTWZiNn2XiA-OyKHTQkPDmECmn5OSCfUtinrklXRihHwxbv1G0goVter-K1VwyR6Ns0OD8udl7TT3Vz-x0r5OA9F658Dg=s1600)`
+                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=)`
                 break;
         }
       }
