@@ -178,7 +178,7 @@ const updateUI=async ()=>{
         {
             case "Haze":
                 document.querySelector('.city-container img').src=`${Cloudy}`;
-                document.querySelector('body').style.backgroundImage=`url(http://drive.google.com/uc?export=view&id=1-cSbs7L2lmKONX8xEy3FgOdVUtEJTGqg)`
+                document.querySelector('body').style.backgroundImage=`url(https://drive.usercontent.google.com/download?id=1-cSbs7L2lmKONX8xEy3FgOdVUtEJTGqg&export=view&authuser=0)`
                 break;
             case "Thunderstorm":
                 document.querySelector('.city-container img').src=`${thunder}`;
